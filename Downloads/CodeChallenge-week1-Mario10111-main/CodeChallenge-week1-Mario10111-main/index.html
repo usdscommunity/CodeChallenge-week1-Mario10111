@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique en ligne</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="box">
+                <h1>BIENVENUE SUR NOTRE SITE</h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="produits">
+            <div class="container">
+                <article class="box produit">
+                    <h2>Produit 1</h2>
+                    <img src="produit1.webp" alt="Produit 1 - Description du produit" width="150" height="150">
+                    <p>Prix: 100€</p>
+                    <button type="button">Acheter</button>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Caractéristique</th>
+                                <th>Valeur</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Couleur</td>
+                                <td>Rouge</td>
+                            </tr>
+                            <tr>
+                                <td>Taille</td>
+                                <td>M</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+
+                <article class="box produit">
+                    <h2>Produit 2</h2>
+                    <img src="produit2.webp" alt="Produit 2 - Description du produit" width="150" height="150">
+                    <p>Prix: 200€</p>
+                    <button type="button">Acheter</button>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Caractéristique</th>
+                                <th>Valeur</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Couleur</td>
+                                <td>Bleu</td>
+                            </tr>
+                            <tr>
+                                <td>Taille</td>
+                                <td>L</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </div>
+        </section>
+        <div class="promo-scroll"><p class="promo-text">Promo spéciale aujourd'hui : Livraison gratuite !</p></div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <div class="box">
+                    <h2>Contactez-nous</h2>
+                    <p>Email : <a href="mailto:boutique@email.com">boutique@email.com</a></p>
+                    <form>
+                        <label for="nom">Nom :</label>
+                        <input type="text" id="nom" name="nom" required><br>
+
+                        <label for="email">Email :</label>
+                        <input type="email" id="email" name="email" required><br>
+
+                        <label for="message">Message :</label>
+                        <textarea id="message" name="message" required></textarea><br>
+
+                        <button type="submit">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="avis">
+            <div class="container">
+                <h2>Avis des clients</h2>
+                <div class="box avis-client">
+                    <p><strong>Jean :</strong> Super produit, je recommande !</p>
+                </div>
+                <div class="box avis-client">
+                    <p><strong>Marie :</strong> Livraison rapide, très satisfait.</p>
+                </div>
+                <div class="box avis-client">
+                    <p><strong>Luc :</strong> Produit conforme, service client réactif.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Boutique en ligne. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
